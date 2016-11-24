@@ -13,7 +13,10 @@ deploy:
   provider: releases
   api_key:
     secure: GvxCPOqpGVCLYtFf6R0mVi8wqFbLClEmLKsecV7saY/ydb4tvZPA97N4O0Xlk+Qd+UAuHUgurkyUthxpTFKe9ZDww3ywbFIHAJ7axuPgG56tDrZag51Ym1ab0nsYjCJQEfcnFzipy37qRQIKe/so3zhlefGjR5yFG9Noe6U2/FAu7+rRZv1A1VIDpSP/5EQe3Ff1AIrEwluppoG5A7NF371YHB25P+fldF5tWB0SC+8CgQYX6CCEIaXiGz+pQ5Aq+yVSlDMrG57gWqpff/806e3mXF5me36jfLGYCOrclctt1+IuSvEKnZrjNC0qgSbw/ru4w3JSzsk/B2mrKPW7rxgqBA1qZZd/vskFNmlR4vpbJqj4pdm0aTuJYjoZsYwLhJ7TqJeGRYlW/IYz3+XZglOHLFw2USMhWfN1FMAw4BrgjvEd/oRCj4qLx1s9W4lDyK4NdzNAL5OLUta+9wwgFm6cl5lBJsf2R+WD/6imcdDNRIyoIbfHVHUUDNGhFPOd3/LK+IaVgaF2wuw61D/cWgYXpaqiN+7FIpkMClYM3yh7pRiilU2y2vUXKdh0AWROaVN9/QeqPCbFhkrpdCSe1UIB7P55Dk5wO2dGzeP3rze48Rgnofo2xoWV8+os6ix9y22VZ7Q5igwijOLogqLGqvP357O8ObZV56NREYSiEWc=
+  file_glob: true
   file:
-    - "build/libs/umbra-0.0.0.jar"
+    - "build/libs/umbra-*.jar"
+  skip_cleanup: true
   on:
     repo: ShadowLordAlpha/Umbra
+    jdk: 'oraclejdk7'
