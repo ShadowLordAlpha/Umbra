@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
+  "modid": "umbra",
+  "name": "Umbra",
   "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["ShadowLordAlpha"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
